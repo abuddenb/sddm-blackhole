@@ -21,15 +21,13 @@
 import QtQuick 2.2
 import QtQuick.Controls 1.4
 import QtQuick.Layouts 1.1
+import QtQuick.Window 2.2
 import SddmComponents 2.0
 
 import "components"
 
 Rectangle {
     id: root
-
-    width: config.ScreenWidth
-    height: config.ScreenHeight
 
     property string notificationMessage
     property string generalFontColor: "white"
